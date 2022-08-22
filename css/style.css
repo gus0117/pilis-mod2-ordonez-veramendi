@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+ 
+ }
+ /* Header */
+ header{
+     background-color: #7f1734;
+     padding: 20px 0;
+ }
+ .box{
+     width: 70%;
+     position: relative;
+     margin:  0 auto;
+ }
+ nav{
+     position: absolute;
+     top: 110px;
+     right: 0;
+ }
+ nav li{
+     display: inline;
+     margin: 0px 15px 0 0;
+     
+ }
+ nav li a:hover{
+     color: #af6771;
+ 
+ }
+ nav a{
+     text-transform: uppercase;
+     color: #000;
+     font-weight: bold;
+     font-size: 22px;
+     text-decoration: none;
+ }
+ 
+ /****************************************************HOME**************************************************************/
+ 
