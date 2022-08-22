@@ -4,11 +4,12 @@
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+    box-sizing: border-box;
  
  }
  /* Header */
  header{
-     background-color: #7f1734;
+     background-color: #82141F;
      padding: 20px 0;
  }
  .box{
@@ -32,11 +33,37 @@
  }
  nav a{
      text-transform: uppercase;
-     color: #000;
+     color: #fff;
      font-weight: bold;
-     font-size: 22px;
+     font-size: 35px;
      text-decoration: none;
  }
  
  /****************************************************HOME**************************************************************/
  
+.section-home{
+    display: block;
+    background-color: #984252;
+    width: 100%;
+    
+}
+
+.title-subtitle{
+    float: left;
+    margin:5% 5%;
+    width: 40%;
+}
+.title-subtitle h4,p{
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    text-align:justify ;
+    overflow:hidden;
+    color: #fff;    
+    font-size: 28px;
+
+}
+.image img{
+    width: 50%;
+   
+    
+}
