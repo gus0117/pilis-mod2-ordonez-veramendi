@@ -160,3 +160,7 @@
     font-size: 1.4rem;
     margin-top: 40px;
 }
+
+.box-content img {
+    width: 100%;
+}
