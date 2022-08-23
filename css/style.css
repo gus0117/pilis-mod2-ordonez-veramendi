@@ -161,3 +161,28 @@
     font-size: 1.4rem;
     margin-top: 40px;
 }
+
+/*************************************WEATHER*************************************************/
+
+.section-weather-box{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: var(--medium-color);
+}
+
+.card{
+    position: absolute;
+    border: 0.3rem solid var(--main-color);
+    border-radius: 2rem;
+    width: 50%;
+    height: 40vh;
+    margin: 15vh 25%;    
+    background: var(--main-color);
+}
+
+.tag-text{
+    color: var(--soft-color);
+    font-size: 2rem;
+    text-align: center;
+}
