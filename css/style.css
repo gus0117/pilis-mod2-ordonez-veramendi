@@ -186,3 +186,18 @@
     font-size: 2rem;
     text-align: center;
 }
+
+.name-city, .description-weather,.temperature{
+    margin: 5%;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.name-city{
+    font-size: 2rem;
+}
+
+.description-weather,.temperature{
+    font-size: 1.5rem;
+}
