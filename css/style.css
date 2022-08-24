@@ -190,8 +190,7 @@
 .name-city, .description-weather,.temperature{
     margin: 5%;
     text-align: center;
-    color: #fff;
-    
+    color: #fff;    
 }
 
 .name-city{
