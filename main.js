@@ -13,7 +13,6 @@ d.addEventListener("DOMContentLoaded", e => {
             let nameValue = data['name'];
             let temperatureValue = data['main']['temp'];
             let descriptionValue = data['weather'][0]['description'];
-            console.log(nameValue, temperatureValue, descriptionValue,data)
             $name.innerHTML= nameValue;
             $temperature.innerHTML= convert(temperatureValue);
             $description.innerHTML = descriptionValue;
