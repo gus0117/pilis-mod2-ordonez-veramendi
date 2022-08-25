@@ -1,4 +1,4 @@
-function onClick (event) {
+async function onClick (event) {
     event.preventDefault();
 
     const register = {
@@ -8,7 +8,7 @@ function onClick (event) {
         phone: document.getElementById('phone').value
     }
 
-    fetch("https://jsonplaceholder.typicode.com/posts", {
+    await fetch("https://jsonplaceholder.typicode.com/posts", {
         method: "POST",
         body: JSON.stringify(register),
         headers: { "Content-type":"application/json; charset=UTF-8"}

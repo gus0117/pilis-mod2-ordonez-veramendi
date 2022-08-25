@@ -102,26 +102,23 @@
     width: 50%;
 }
 
-.text-content {
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    margin-left: 50px;
+    margin: 0 5%;
 }
 
-.media-content {
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-    padding: 60px;
-    max-width: 800px;
+.video {
+    width: 50rem;
+    height: 30rem;
 }
 
 .subtitle {
     text-transform: uppercase;
-    margin: 40px;
-    font-size: 1.5rem;
+    margin: 0 auto;
+    font-size: 2.7rem;
     letter-spacing: 1px;
     text-align: center;
     color: #7f1734;
@@ -131,13 +128,13 @@
 .description {
     font-size: 1.2rem;
     color: black;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 
 .box-content {
     background-color: #ffffff;
     padding: 10% 5%;
-    margin-right: 5%;
+    margin: 0 auto;
     border-radius: 12px;
     border-style: solid;
     border-color: #984252;
@@ -231,3 +228,29 @@
     border: 1px solid var(--main-color);
     color: var(--main-color);
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("/source/parallax-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-white {
+    color: #fff;
+  }
+
+  .opacity-0{
+    opacity: 1.0;
+  }
+
+  .opacity-1{
+    opacity: 0.6;
+  }
