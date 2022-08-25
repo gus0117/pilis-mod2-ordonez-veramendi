@@ -161,3 +161,30 @@
     font-size: 1.4rem;
     margin-top: 40px;
 }
+
+/***********************************************FOOTER SECTION*********************************************************/
+.footer-section{
+    background: url(../source/background-2660437_1920.jpg);
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-section p{
+ margin-top: 1rem;
+ text-align: center;
+}
+
+.contact li{
+    display: inline-block;
+}
+
+.contact li img{
+width: 150px;
+height: 150px;
+
+}
+
+.contact li a{
+    text-decoration: none;
+}
