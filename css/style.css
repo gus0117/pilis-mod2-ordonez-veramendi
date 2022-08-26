@@ -27,8 +27,8 @@
      background-color: var(--main-color);
      padding: 5px 0;
      height: 25vh;
-     top: 0;
      position: sticky;
+     top: 0;
  }
  .box{
      width: 70%;
@@ -264,19 +264,20 @@
 /*************************************WEATHER*************************************************/
 
 .section-weather-box{
-    position: relative;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background: var(--medium-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card{
-    position: absolute;
     border: 0.3rem solid var(--main-color);
     border-radius: 2rem;
     width: 50%;
     height: 40vh;
-    margin: 15vh 25%;    
+    margin: auto;
     background: var(--main-color);
 }
 
@@ -284,6 +285,7 @@
     color: var(--soft-color);
     font-size: 2rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .name-city, .description-weather,.temperature{
