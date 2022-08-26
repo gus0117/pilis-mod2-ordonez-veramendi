@@ -2,16 +2,18 @@ let d = document;
 const $name = d.querySelector(".name-city");
 const $description = d.querySelector(".description-weather");
 const $temperature = d.querySelector(".temperature");
+const $icon = d.querySelector(".weather-icon");
 
 d.addEventListener("DOMContentLoaded",e=>{
     weather();
 })
 
-function domWrite(nameValue,temperatureValue,descriptionValue) {
+function domWrite(nameValue,temperatureValue,descriptionValue, iconValue) {
     
     $name.textContent=nameValue;
-    $temperature.textContent= temperatureValue + "°C";
+    $temperature.textContent= Math.round(temperatureValue) + "°C";
     $description.textContent = descriptionValue;
+    $icon.src = iconValue;
 }
 
 async function weather(){
@@ -21,7 +23,8 @@ async function weather(){
         let nameValue = data['name'];
         let temperatureValue = data['main']['temp'];
         let descriptionValue = data['weather'][0]['description'];
-        domWrite(nameValue,temperatureValue,descriptionValue); 
+        let iconValue = `http://openweathermap.org/img/wn/${data['weather'][0]['icon']}@2x.png`;
+        domWrite(nameValue,temperatureValue,descriptionValue, iconValue); 
     }catch(err){
         alert(err);
     }             
