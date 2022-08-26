@@ -22,6 +22,9 @@
     font-family: 'Poppins', sans-serif;
  
  }
+ html{
+     scroll-behavior: smooth;
+ }
  /* Header */
  header{
      background-color: var(--main-color);
@@ -29,6 +32,7 @@
      height: 25vh;
      top: 0;
      position: sticky;
+     
  }
  .box{
      width: 70%;
