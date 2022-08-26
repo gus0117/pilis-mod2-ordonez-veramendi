@@ -9,19 +9,20 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="box">
         <nav>
           <ul>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Evento</a></li>
-            <li><a href="#">Registrate</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#event">Evento</a></li>
+            <li><a href="#contact">Registrate</a></li>
+            <li><a href="#weather">Clima</a></li>
           </ul>
         </nav>
-        <a><img src="./source/wine-6515502 (1).png" alt="coup of wine" /></a>
+        <a href="#home"><img src="./source/wine-6515502 (1).png" alt="coup of wine" /></a>
       </div>
     </header>
-
+    <main>
     <section id="home" class="section-home">
       <article class="title-subtitle">
         <h4>Expo vinícola</h4>
@@ -115,7 +116,7 @@
       </div>
     </section>
 
-    <section class="section-weather-box">
+    <section id="weather" class="section-weather-box">
       <div class="card">
         <h3 class="tag-text">Clima</h3>
         <h4 class="name-city"></h4>
@@ -123,6 +124,8 @@
         <p class="temperature"></p>
     </section>
     <script src="./main.js"></script>
+
+  </main>
 
     <footer class="footer-section">
       <ul class="contact">

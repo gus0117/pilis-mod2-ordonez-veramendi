@@ -24,18 +24,23 @@
  }
  /* Header */
  header{
-     background-color: #82141F;
-     padding: 20px 0;
+     background-color: var(--main-color);
+     padding: 5px 0;
+     height: 25vh;
+     top: 0;
+     position: sticky;
  }
  .box{
      width: 70%;
      position: relative;
      margin:  0 auto;
+     position: sticky;
  }
  nav{
      position: absolute;
      top: 110px;
      right: 0;
+    
  }
  nav li{
      display: inline;
