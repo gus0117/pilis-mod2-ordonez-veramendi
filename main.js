@@ -51,7 +51,7 @@ function onClick (event) {
         Swal.fire(
             'Enviado',
             'Gracias por participar',
-            'Enviado con exito'
+            'success'
         );
         cleanForm();
     })
